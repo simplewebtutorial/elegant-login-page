@@ -65,10 +65,13 @@
   background: #efefef;
   border-left: 4px solid #50269a;
   border-radius: 4px;
+  transition: all 0.3s ease-in;
 }
 
 .form-input input:focus {
   outline: none;
+  transition: all 0.3s ease-in;
+  box-shadow: 0 0 5px rgba(80, 38, 154, 1);
 }
 
 .forget-pass {
